@@ -3,8 +3,8 @@
 // browser — visitors can only ever see the result ('ok' or 'wrong'), never
 // this source code or the values below.
 
-const PASSWORD = 'Connorjack0826';                 // the password visitors must type
-const TARGET_URL = 'https://www.google.com';       // where correct visitors are sent
+const PASSWORD = 'Taskirmaz0826';                 // the password visitors must type
+const TARGET_URL = 'https://myfavoritecoffee.s.gy/EnglishLearningProject';       // where correct visitors are sent
 const LOG_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbxSFj9nicrHRZviELLg87Gk1nlsicbXaMv-MSCG-BTAuNzqruC8ghHrI7eCToWQt01kvg/exec';                        // paste your Apps Script /exec URL here once you have it
 
 export default async function handler(req, res) {

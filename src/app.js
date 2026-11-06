@@ -27,7 +27,7 @@ async function submit() {
       $('viewPw').classList.add('hide');
       $('viewOk').classList.remove('hide');
       $('lnk').href = data.url;
-      $('lnk').textContent = data.url;
+      $('lnk').textContent = 'Click here';
     } else {
       $('pw').value = '';
       $('msg').textContent = 'Please try again.';
