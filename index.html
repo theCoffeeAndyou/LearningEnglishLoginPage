@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verification</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <div class="card title">
+    <h1>Verification</h1>
+    <div class="sub">Enter the password to continue.</div>
+  </div>
+
+  <!-- Login page -->
+  <div id="viewPw">
+    <div class="card">
+      <label for="pw">Password</label>
+      <input id="pw" type="password" placeholder="Your answer" autocomplete="off">
+      <div id="msg" class="msg"></div>
+    </div>
+    <button id="btn">Next</button>
+  </div>
+
+  <!-- Link page -->
+  <div id="viewOk" class="hide">
+    <div class="card">
+      <label>Verified ✅</label>
+      <a id="lnk" target="_blank" rel="noopener"></a>
+    </div>
+  </div>
+
+</div>
+
+<script src="src/app.js"></script>
+</body>
+</html>
